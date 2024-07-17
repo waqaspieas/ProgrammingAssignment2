@@ -31,7 +31,8 @@ cacheSolve <- function(x, ...) {
     xInv
 }
 
+
 # Sample code to test the above two functions
-myMat <- matrix(round(rnorm(16, 0, 3)), 4, 4)
-x <- makeCacheMatrix(myMat)
-cacheSolve(x)
+# myMat <- matrix(round(rnorm(16, 0, 3)), 4, 4)
+# x <- makeCacheMatrix(myMat)
+# cacheSolve(x)
